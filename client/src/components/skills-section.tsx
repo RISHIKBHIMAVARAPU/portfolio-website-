@@ -88,7 +88,7 @@ export default function SkillsSection() {
 
         {/* Certifications */}
         <div className="mt-16">
-          <h3 className="text-2xl font-semibold text-center mb-8">Certifications & Achievements</h3>
+          <h3 className="text-2xl font-semibold text-center mb-8 gradient-text">Certifications & Achievements</h3>
           <div className="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">
             <Card className="bg-slate-900 border-slate-800">
               <CardContent className="p-6">

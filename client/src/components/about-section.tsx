@@ -42,7 +42,7 @@ export default function AboutSection() {
           <div className="animate-slide-up">
             <Card className="bg-slate-800 border-slate-700">
               <CardContent className="p-8">
-                <h4 className="text-xl font-semibold mb-6">Quick Facts</h4>
+                <h4 className="text-xl font-semibold mb-6 gradient-text">Quick Facts</h4>
                 <div className="space-y-4">
                   <div className="flex justify-between items-center">
                     <span className="text-slate-400">Experience</span>

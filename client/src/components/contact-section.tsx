@@ -79,7 +79,7 @@ export default function ContactSection() {
           {/* Contact Information */}
           <div className="space-y-8">
             <div>
-              <h3 className="text-2xl font-semibold mb-6">Let's Connect</h3>
+              <h3 className="text-2xl font-semibold mb-6 gradient-text">Let's Connect</h3>
               <p className="text-slate-300 mb-8 leading-relaxed">
                 Whether you have a project in mind, want to collaborate, or just want to say hello, 
                 I'd love to hear from you. Feel free to reach out through any of the channels below.
@@ -181,7 +181,7 @@ export default function ContactSection() {
           {/* Contact Form */}
           <Card className="bg-slate-800 border-slate-700">
             <CardContent className="p-8">
-              <h3 className="text-xl font-semibold mb-6">Send a Message</h3>
+              <h3 className="text-xl font-semibold mb-6 gradient-text">Send a Message</h3>
               <form onSubmit={handleSubmit} className="space-y-6">
                 <div className="grid md:grid-cols-2 gap-6">
                   <div>
