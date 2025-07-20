@@ -44,7 +44,8 @@ export default function HeroSection() {
             <Button
               asChild
               variant="outline"
-              className="border-slate-600 hover:border-blue-primary text-slate-300 hover:text-blue-primary px-8 py-3 font-medium transition-all duration-300"
+              className="border-slate-600 hover:border-blue-primary hover:text-blue-primary px-8 py-3 font-medium transition-all duration-300"
+              style={{ color: '#2a2c37' }}
             >
               <a href="#contact">
                 Get In Touch
