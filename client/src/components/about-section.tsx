@@ -26,7 +26,7 @@ export default function AboutSection() {
             <div className="flex flex-wrap gap-4">
               <div className="flex items-center gap-2 text-slate-400">
                 <MapPin className="w-4 h-4 text-blue-primary" />
-                <span>Ongole, Andhra Pradesh</span>
+                <span>Hyderabad, India</span>
               </div>
               <div className="flex items-center gap-2 text-slate-400">
                 <Mail className="w-4 h-4 text-blue-primary" />
@@ -40,7 +40,7 @@ export default function AboutSection() {
           </div>
           
           <div className="animate-slide-up">
-            <Card className="bg-slate-800 border-slate-700">
+            <Card className="bg-gradient-to-br from-slate-800/80 to-slate-700/80 border-slate-600 backdrop-blur-sm">
               <CardContent className="p-8">
                 <h4 className="text-xl font-semibold mb-6">Quick Facts</h4>
                 <div className="space-y-4">

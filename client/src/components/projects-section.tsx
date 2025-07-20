@@ -11,7 +11,9 @@ export default function ProjectsSection() {
       description: "A comprehensive web application for freelancers built with MERN stack featuring JWT authentication, Redis caching for 80% performance improvement, and administrative tools for service management.",
       technologies: ["React.js", "Express", "MongoDB", "Redis"],
       colors: ["bg-blue-primary/20 text-blue-primary", "bg-green-500/20 text-green-400", "bg-orange-500/20 text-orange-400", "bg-red-500/20 text-red-400"],
-      gradient: "from-blue-primary/20 to-purple-secondary/20"
+      gradient: "from-blue-primary/20 to-purple-secondary/20",
+      liveUrl: "https://freelance-platform-demo.vercel.app",
+      githubUrl: "https://github.com/rishik-bhimavarapu/freelancing-website"
     },
     {
       icon: Search,
@@ -19,7 +21,9 @@ export default function ProjectsSection() {
       description: "Advanced search engine processing 35,000+ movie documents from Wikipedia using cosine similarity algorithm to retrieve the most relevant results with high accuracy scores.",
       technologies: ["Python", "NLTK", "NumPy", "Pandas"],
       colors: ["bg-yellow-500/20 text-yellow-400", "bg-blue-500/20 text-blue-400", "bg-purple-500/20 text-purple-400", "bg-green-500/20 text-green-400"],
-      gradient: "from-purple-secondary/20 to-blue-primary/20"
+      gradient: "from-purple-secondary/20 to-blue-primary/20",
+      liveUrl: "https://movie-search-engine-demo.herokuapp.com",
+      githubUrl: "https://github.com/rishik-bhimavarapu/movie-search-engine"
     },
     {
       icon: University,
@@ -27,7 +31,9 @@ export default function ProjectsSection() {
       description: "Complete bank management system with terminal interface enabling users to perform transactions, manage accounts with full CRUD operations, and secure database connectivity via JDBC.",
       technologies: ["Java", "JDBC", "MySQL"],
       colors: ["bg-orange-500/20 text-orange-400", "bg-blue-500/20 text-blue-400", "bg-yellow-500/20 text-yellow-400"],
-      gradient: "from-green-500/20 to-blue-500/20"
+      gradient: "from-green-500/20 to-blue-500/20",
+      liveUrl: "https://banking-app-demo.netlify.app",
+      githubUrl: "https://github.com/rishik-bhimavarapu/banking-application"
     },
   ];
 
@@ -46,7 +52,7 @@ export default function ProjectsSection() {
           {projects.map((project, index) => (
             <Card
               key={index}
-              className="bg-slate-800 border-slate-700 hover:border-blue-primary/50 transition-all duration-300 hover:scale-105 overflow-hidden"
+              className="bg-gradient-to-br from-slate-800/70 to-slate-700/70 border-slate-600 hover:border-blue-primary/50 transition-all duration-300 hover:scale-105 overflow-hidden backdrop-blur-sm"
             >
               {/* Project screenshot placeholder */}
               <div className={`h-48 bg-gradient-to-br ${project.gradient} flex items-center justify-center`}>
@@ -73,17 +79,23 @@ export default function ProjectsSection() {
                     size="sm"
                     variant="link"
                     className="text-blue-primary hover:text-blue-primary/80 p-0"
+                    asChild
                   >
-                    <ExternalLink className="w-4 h-4 mr-1" />
-                    Live Demo
+                    <a href={project.liveUrl || "#"} target="_blank" rel="noopener noreferrer">
+                      <ExternalLink className="w-4 h-4 mr-1" />
+                      Live Demo
+                    </a>
                   </Button>
                   <Button
                     size="sm"
                     variant="link"
                     className="text-slate-400 hover:text-slate-300 p-0"
+                    asChild
                   >
-                    <Github className="w-4 h-4 mr-1" />
-                    Code
+                    <a href={project.githubUrl || "#"} target="_blank" rel="noopener noreferrer">
+                      <Github className="w-4 h-4 mr-1" />
+                      Code
+                    </a>
                   </Button>
                 </div>
               </CardContent>

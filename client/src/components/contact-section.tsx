@@ -87,7 +87,7 @@ export default function ContactSection() {
             </div>
 
             <div className="space-y-6">
-              <Card className="bg-slate-800 border-slate-700">
+              <Card className="bg-gradient-to-br from-slate-800/70 to-slate-700/70 border-slate-600 backdrop-blur-sm hover:border-blue-primary/30 transition-all duration-300">
                 <CardContent className="p-4">
                   <div className="flex items-center gap-4">
                     <div className="w-12 h-12 bg-blue-primary/20 rounded-lg flex items-center justify-center">
@@ -106,7 +106,7 @@ export default function ContactSection() {
                 </CardContent>
               </Card>
 
-              <Card className="bg-slate-800 border-slate-700">
+              <Card className="bg-gradient-to-br from-slate-800/70 to-slate-700/70 border-slate-600 backdrop-blur-sm hover:border-purple-secondary/30 transition-all duration-300">
                 <CardContent className="p-4">
                   <div className="flex items-center gap-4">
                     <div className="w-12 h-12 bg-purple-secondary/20 rounded-lg flex items-center justify-center">
@@ -125,7 +125,7 @@ export default function ContactSection() {
                 </CardContent>
               </Card>
 
-              <Card className="bg-slate-800 border-slate-700">
+              <Card className="bg-gradient-to-br from-slate-800/70 to-slate-700/70 border-slate-600 backdrop-blur-sm hover:border-green-400/30 transition-all duration-300">
                 <CardContent className="p-4">
                   <div className="flex items-center gap-4">
                     <div className="w-12 h-12 bg-green-500/20 rounded-lg flex items-center justify-center">
@@ -133,7 +133,7 @@ export default function ContactSection() {
                     </div>
                     <div>
                       <h4 className="font-medium">Location</h4>
-                      <span className="text-slate-400">Ongole, Andhra Pradesh</span>
+                      <span className="text-slate-400">Hyderabad, India</span>
                     </div>
                   </div>
                 </CardContent>
@@ -148,29 +148,38 @@ export default function ContactSection() {
                   size="icon"
                   variant="outline"
                   className="bg-slate-800 border-slate-700 hover:bg-blue-primary hover:border-blue-primary hover:scale-110 transition-all duration-300"
+                  asChild
                 >
-                  <Linkedin className="w-5 h-5" />
+                  <a href="https://linkedin.com/in/rishik-bhimavarapu" target="_blank" rel="noopener noreferrer">
+                    <Linkedin className="w-5 h-5" />
+                  </a>
                 </Button>
                 <Button
                   size="icon"
                   variant="outline"
                   className="bg-slate-800 border-slate-700 hover:bg-slate-700 hover:scale-110 transition-all duration-300"
+                  asChild
                 >
-                  <Github className="w-5 h-5" />
+                  <a href="https://github.com/rishik-bhimavarapu" target="_blank" rel="noopener noreferrer">
+                    <Github className="w-5 h-5" />
+                  </a>
                 </Button>
                 <Button
                   size="icon"
                   variant="outline"
                   className="bg-slate-800 border-slate-700 hover:bg-blue-500 hover:border-blue-500 hover:scale-110 transition-all duration-300"
+                  asChild
                 >
-                  <Twitter className="w-5 h-5" />
+                  <a href="https://twitter.com/rishik_bhimavar" target="_blank" rel="noopener noreferrer">
+                    <Twitter className="w-5 h-5" />
+                  </a>
                 </Button>
               </div>
             </div>
           </div>
 
           {/* Contact Form */}
-          <Card className="bg-slate-800 border-slate-700">
+          <Card className="bg-gradient-to-br from-slate-800/80 to-slate-700/80 border-slate-600 backdrop-blur-sm">
             <CardContent className="p-8">
               <h3 className="text-xl font-semibold mb-6">Send a Message</h3>
               <form onSubmit={handleSubmit} className="space-y-6">
