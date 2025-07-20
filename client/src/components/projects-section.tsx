@@ -13,7 +13,7 @@ export default function ProjectsSection() {
       colors: ["bg-blue-primary/20 text-blue-primary", "bg-green-500/20 text-green-400", "bg-orange-500/20 text-orange-400", "bg-red-500/20 text-red-400"],
       gradient: "from-blue-primary/20 to-purple-secondary/20",
       liveUrl: "https://freelance-platform-demo.vercel.app",
-      githubUrl: "https://github.com/rishik-bhimavarapu/freelancing-website"
+      githubUrl: "https://github.com/rishik-bhimavarapu/mern-freelance-platform"
     },
     {
       icon: Search,
@@ -23,7 +23,7 @@ export default function ProjectsSection() {
       colors: ["bg-yellow-500/20 text-yellow-400", "bg-blue-500/20 text-blue-400", "bg-purple-500/20 text-purple-400", "bg-green-500/20 text-green-400"],
       gradient: "from-purple-secondary/20 to-blue-primary/20",
       liveUrl: "https://movie-search-engine-demo.herokuapp.com",
-      githubUrl: "https://github.com/rishik-bhimavarapu/movie-search-engine"
+      githubUrl: "https://github.com/rishik-bhimavarapu/movie-search-cosine-similarity"
     },
     {
       icon: University,
@@ -33,7 +33,7 @@ export default function ProjectsSection() {
       colors: ["bg-orange-500/20 text-orange-400", "bg-blue-500/20 text-blue-400", "bg-yellow-500/20 text-yellow-400"],
       gradient: "from-green-500/20 to-blue-500/20",
       liveUrl: "https://banking-app-demo.netlify.app",
-      githubUrl: "https://github.com/rishik-bhimavarapu/banking-application"
+      githubUrl: "https://github.com/rishik-bhimavarapu/java-banking-system"
     },
   ];
 
@@ -78,23 +78,12 @@ export default function ProjectsSection() {
                   <Button
                     size="sm"
                     variant="link"
-                    className="text-blue-primary hover:text-blue-primary/80 p-0"
-                    asChild
-                  >
-                    <a href={project.liveUrl || "#"} target="_blank" rel="noopener noreferrer">
-                      <ExternalLink className="w-4 h-4 mr-1" />
-                      Live Demo
-                    </a>
-                  </Button>
-                  <Button
-                    size="sm"
-                    variant="link"
                     className="text-slate-400 hover:text-slate-300 p-0"
                     asChild
                   >
                     <a href={project.githubUrl || "#"} target="_blank" rel="noopener noreferrer">
                       <Github className="w-4 h-4 mr-1" />
-                      Code
+                      View Code
                     </a>
                   </Button>
                 </div>

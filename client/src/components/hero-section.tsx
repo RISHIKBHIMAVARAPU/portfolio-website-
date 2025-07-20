@@ -16,10 +16,14 @@ export default function HeroSection() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="text-center animate-fade-in">
           <div className="mb-8">
-            {/* Professional headshot placeholder */}
+            {/* Professional headshot */}
             <div className="w-32 h-32 mx-auto rounded-full bg-gradient-to-br from-blue-primary to-purple-secondary p-1 animate-float">
-              <div className="w-full h-full rounded-full bg-slate-800 flex items-center justify-center">
-                <div className="text-3xl text-slate-400">RB</div>
+              <div className="w-full h-full rounded-full overflow-hidden">
+                <img 
+                  src="/attached_assets/20250111_101555_1753008202318.jpg" 
+                  alt="Rishik Bhimavarapu - Software Engineer" 
+                  className="w-full h-full object-cover"
+                />
               </div>
             </div>
           </div>
@@ -44,8 +48,7 @@ export default function HeroSection() {
             <Button
               asChild
               variant="outline"
-              className="border-slate-600 hover:border-blue-primary hover:text-blue-primary px-8 py-3 font-medium transition-all duration-300"
-              style={{ color: '#2a2c37' }}
+              className="border-slate-600 hover:border-blue-primary text-slate-200 hover:text-blue-primary px-8 py-3 font-medium transition-all duration-300"
             >
               <a href="#contact">
                 Get In Touch
