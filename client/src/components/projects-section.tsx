@@ -59,7 +59,7 @@ export default function ProjectsSection() {
                 <project.icon className="text-4xl text-slate-400" size={64} />
               </div>
               <CardContent className="p-6">
-                <h3 className="text-xl font-semibold mb-3">{project.title}</h3>
+                <h3 className="text-xl font-semibold mb-3 gradient-text">{project.title}</h3>
                 <p className="text-slate-400 mb-4 text-sm leading-relaxed">
                   {project.description}
                 </p>

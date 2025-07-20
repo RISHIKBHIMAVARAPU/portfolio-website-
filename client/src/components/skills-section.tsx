@@ -70,7 +70,7 @@ export default function SkillsSection() {
                 <div className={`${category.color} text-3xl mb-4`}>
                   <category.icon />
                 </div>
-                <h3 className="text-xl font-semibold mb-4">{category.title}</h3>
+                <h3 className="text-xl font-semibold mb-4 gradient-text">{category.title}</h3>
                 <div className="space-y-3">
                   {category.skills.map((skill, skillIndex) => (
                     <div key={skillIndex} className="space-y-2">
@@ -97,7 +97,7 @@ export default function SkillsSection() {
                     <span className="text-white font-bold">AWS</span>
                   </div>
                   <div>
-                    <h4 className="font-semibold">AWS Certified Cloud Practitioner</h4>
+                    <h4 className="font-semibold gradient-text">AWS Certified Cloud Practitioner</h4>
                     <p className="text-slate-400 text-sm">Amazon Web Services</p>
                   </div>
                 </div>
@@ -110,7 +110,7 @@ export default function SkillsSection() {
                     <Code className="w-6 h-6 text-white" />
                   </div>
                   <div>
-                    <h4 className="font-semibold">300+ Coding Challenges</h4>
+                    <h4 className="font-semibold gradient-text">300+ Coding Challenges</h4>
                     <p className="text-slate-400 text-sm">GeeksforGeeks & LeetCode</p>
                   </div>
                 </div>

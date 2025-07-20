@@ -94,7 +94,7 @@ export default function ContactSection() {
                       <Mail className="text-blue-primary w-5 h-5" />
                     </div>
                     <div>
-                      <h4 className="font-medium">Email</h4>
+                      <h4 className="font-medium gradient-text">Email</h4>
                       <a 
                         href="mailto:rishiktarak@gmail.com" 
                         className="text-slate-400 hover:text-blue-primary transition-colors"
@@ -113,7 +113,7 @@ export default function ContactSection() {
                       <Phone className="text-purple-secondary w-5 h-5" />
                     </div>
                     <div>
-                      <h4 className="font-medium">Phone</h4>
+                      <h4 className="font-medium gradient-text">Phone</h4>
                       <a 
                         href="tel:+917337237148" 
                         className="text-slate-400 hover:text-purple-secondary transition-colors"
@@ -132,7 +132,7 @@ export default function ContactSection() {
                       <MapPin className="text-green-400 w-5 h-5" />
                     </div>
                     <div>
-                      <h4 className="font-medium">Location</h4>
+                      <h4 className="font-medium gradient-text">Location</h4>
                       <span className="text-slate-400">Hyderabad, India</span>
                     </div>
                   </div>
@@ -142,7 +142,7 @@ export default function ContactSection() {
 
             {/* Social Links */}
             <div className="pt-8">
-              <h4 className="font-medium mb-4">Follow Me</h4>
+              <h4 className="font-medium mb-4 gradient-text">Follow Me</h4>
               <div className="flex gap-4">
                 <Button
                   size="icon"
