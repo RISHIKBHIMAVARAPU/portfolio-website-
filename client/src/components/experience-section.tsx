@@ -23,7 +23,7 @@ export default function ExperienceSection() {
             <div className="relative mb-12">
               <div className="absolute left-6 w-4 h-4 bg-blue-primary rounded-full border-4 border-slate-950"></div>
               <div className="ml-20">
-                <Card className="bg-gradient-to-br from-slate-800/70 to-slate-700/70 border-slate-600 backdrop-blur-sm">
+                <Card className="bg-slate-900 border-slate-800">
                   <CardContent className="p-8">
                     <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-4">
                       <div>
@@ -68,7 +68,7 @@ export default function ExperienceSection() {
             <div className="relative mb-12">
               <div className="absolute left-6 w-4 h-4 bg-purple-secondary rounded-full border-4 border-slate-950"></div>
               <div className="ml-20">
-                <Card className="bg-gradient-to-br from-slate-800/70 to-slate-700/70 border-slate-600 backdrop-blur-sm">
+                <Card className="bg-slate-900 border-slate-800">
                   <CardContent className="p-8">
                     <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-4">
                       <div>

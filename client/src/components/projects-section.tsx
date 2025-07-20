@@ -52,7 +52,7 @@ export default function ProjectsSection() {
           {projects.map((project, index) => (
             <Card
               key={index}
-              className="bg-gradient-to-br from-slate-800/70 to-slate-700/70 border-slate-600 hover:border-blue-primary/50 transition-all duration-300 hover:scale-105 overflow-hidden backdrop-blur-sm"
+              className="bg-slate-800 border-slate-700 hover:border-blue-primary/50 transition-all duration-300 hover:scale-105 overflow-hidden"
             >
               {/* Project screenshot placeholder */}
               <div className={`h-48 bg-gradient-to-br ${project.gradient} flex items-center justify-center`}>

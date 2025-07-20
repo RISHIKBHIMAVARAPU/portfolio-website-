@@ -64,7 +64,7 @@ export default function SkillsSection() {
           {skillCategories.map((category, index) => (
             <Card
               key={index}
-              className="bg-gradient-to-br from-slate-800/60 to-slate-700/60 border-slate-600 hover:border-blue-primary/50 transition-all duration-300 hover:scale-105 backdrop-blur-sm"
+              className="bg-slate-900 border-slate-800 hover:border-blue-primary/50 transition-all duration-300 hover:scale-105"
             >
               <CardContent className="p-6">
                 <div className={`${category.color} text-3xl mb-4`}>
@@ -90,7 +90,7 @@ export default function SkillsSection() {
         <div className="mt-16">
           <h3 className="text-2xl font-semibold text-center mb-8">Certifications & Achievements</h3>
           <div className="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">
-            <Card className="bg-gradient-to-br from-slate-800/60 to-slate-700/60 border-slate-600 backdrop-blur-sm">
+            <Card className="bg-slate-900 border-slate-800">
               <CardContent className="p-6">
                 <div className="flex items-center gap-4">
                   <div className="w-12 h-12 bg-orange-500 rounded-lg flex items-center justify-center">
@@ -103,7 +103,7 @@ export default function SkillsSection() {
                 </div>
               </CardContent>
             </Card>
-            <Card className="bg-gradient-to-br from-slate-800/60 to-slate-700/60 border-slate-600 backdrop-blur-sm">
+            <Card className="bg-slate-900 border-slate-800">
               <CardContent className="p-6">
                 <div className="flex items-center gap-4">
                   <div className="w-12 h-12 bg-blue-primary rounded-lg flex items-center justify-center">

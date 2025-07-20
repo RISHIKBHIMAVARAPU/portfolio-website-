@@ -87,7 +87,7 @@ export default function ContactSection() {
             </div>
 
             <div className="space-y-6">
-              <Card className="bg-gradient-to-br from-slate-800/70 to-slate-700/70 border-slate-600 backdrop-blur-sm hover:border-blue-primary/30 transition-all duration-300">
+              <Card className="bg-slate-800 border-slate-700">
                 <CardContent className="p-4">
                   <div className="flex items-center gap-4">
                     <div className="w-12 h-12 bg-blue-primary/20 rounded-lg flex items-center justify-center">
@@ -106,7 +106,7 @@ export default function ContactSection() {
                 </CardContent>
               </Card>
 
-              <Card className="bg-gradient-to-br from-slate-800/70 to-slate-700/70 border-slate-600 backdrop-blur-sm hover:border-purple-secondary/30 transition-all duration-300">
+              <Card className="bg-slate-800 border-slate-700">
                 <CardContent className="p-4">
                   <div className="flex items-center gap-4">
                     <div className="w-12 h-12 bg-purple-secondary/20 rounded-lg flex items-center justify-center">
@@ -125,7 +125,7 @@ export default function ContactSection() {
                 </CardContent>
               </Card>
 
-              <Card className="bg-gradient-to-br from-slate-800/70 to-slate-700/70 border-slate-600 backdrop-blur-sm hover:border-green-400/30 transition-all duration-300">
+              <Card className="bg-slate-800 border-slate-700">
                 <CardContent className="p-4">
                   <div className="flex items-center gap-4">
                     <div className="w-12 h-12 bg-green-500/20 rounded-lg flex items-center justify-center">
@@ -179,7 +179,7 @@ export default function ContactSection() {
           </div>
 
           {/* Contact Form */}
-          <Card className="bg-gradient-to-br from-slate-800/80 to-slate-700/80 border-slate-600 backdrop-blur-sm">
+          <Card className="bg-slate-800 border-slate-700">
             <CardContent className="p-8">
               <h3 className="text-xl font-semibold mb-6">Send a Message</h3>
               <form onSubmit={handleSubmit} className="space-y-6">

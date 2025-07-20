@@ -40,7 +40,7 @@ export default function AboutSection() {
           </div>
           
           <div className="animate-slide-up">
-            <Card className="bg-gradient-to-br from-slate-800/80 to-slate-700/80 border-slate-600 backdrop-blur-sm">
+            <Card className="bg-slate-800 border-slate-700">
               <CardContent className="p-8">
                 <h4 className="text-xl font-semibold mb-6">Quick Facts</h4>
                 <div className="space-y-4">
