@@ -37,25 +37,25 @@ export default function ExperienceSection() {
                     </div>
                     <ul className="space-y-3 text-slate-300">
                       <li className="flex items-start gap-3">
-                        <ArrowRight className="text-blue-primary mt-1.5 w-3 h-3 flex-shrink-0" />
+                        <ArrowRight className="text-slate-400 mt-1.5 w-3 h-3 flex-shrink-0" />
                         <span>Migrated monolithic application to modular microservices architecture using Moleculer.js and plugin-based design, improving system scalability, maintainability, and operational efficiency.</span>
                       </li>
                       <li className="flex items-start gap-3">
-                        <ArrowRight className="text-blue-primary mt-1.5 w-3 h-3 flex-shrink-0" />
+                        <ArrowRight className="text-slate-400 mt-1.5 w-3 h-3 flex-shrink-0" />
                         <span>Designed and implemented multiple API endpoints to support comprehensive functionality for a tablet app.</span>
                       </li>
                       <li className="flex items-start gap-3">
-                        <ArrowRight className="text-blue-primary mt-1.5 w-3 h-3 flex-shrink-0" />
+                        <ArrowRight className="text-slate-400 mt-1.5 w-3 h-3 flex-shrink-0" />
                         <span>Implemented multiple user-centric features that enhanced system functionality and significantly improved overall user experience, contributing to higher product value and customer satisfaction.</span>
                       </li>
                       <li className="flex items-start gap-3">
-                        <ArrowRight className="text-blue-primary mt-1.5 w-3 h-3 flex-shrink-0" />
+                        <ArrowRight className="text-slate-400 mt-1.5 w-3 h-3 flex-shrink-0" />
                         <span>Integrated multiple devices into the system, ensuring compatibility with existing features.</span>
                       </li>
                     </ul>
                     <div className="flex flex-wrap gap-2 mt-6">
-                      <Badge className="bg-blue-primary/20 text-blue-primary">Microservices</Badge>
-                      <Badge className="bg-purple-secondary/20 text-purple-secondary">Moleculer.js</Badge>
+                      <Badge className="bg-blue-primary/20 text-slate-400">Microservices</Badge>
+                      <Badge className="bg-purple-secondary/20 text-slate-400">Moleculer.js</Badge>
                       <Badge className="bg-green-500/20 text-green-400">API Development</Badge>
                       <Badge className="bg-orange-500/20 text-orange-400">System Integration</Badge>
                     </div>
@@ -81,7 +81,7 @@ export default function ExperienceSection() {
                       </div>
                     </div>
                     <div className="text-slate-300 mb-4">
-                      <span className="font-medium">CGPA:</span> <span className="text-blue-primary">8.0/10</span>
+                      <span className="font-medium">CGPA:</span> <span className="text-slate-400">8.0/10</span>
                     </div>
                     <div className="text-slate-300">
                       <span className="font-medium">Coursework:</span> Data Structures and Algorithms, Object-oriented Programming, Database Management Systems

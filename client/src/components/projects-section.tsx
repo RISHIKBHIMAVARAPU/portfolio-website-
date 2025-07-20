@@ -10,10 +10,10 @@ export default function ProjectsSection() {
       title: "Freelancing Website",
       description: "A comprehensive web application for freelancers built with MERN stack featuring JWT authentication, Redis caching for 80% performance improvement, and administrative tools for service management.",
       technologies: ["React.js", "Express", "MongoDB", "Redis"],
-      colors: ["bg-blue-primary/20 text-blue-primary", "bg-green-500/20 text-green-400", "bg-orange-500/20 text-orange-400", "bg-red-500/20 text-red-400"],
+      colors: ["bg-blue-primary/20 text-slate-400", "bg-green-500/20 text-green-400", "bg-orange-500/20 text-orange-400", "bg-red-500/20 text-red-400"],
       gradient: "from-blue-primary/20 to-purple-secondary/20",
       liveUrl: "https://freelance-platform-demo.vercel.app",
-      githubUrl: "https://github.com/rishik-bhimavarapu/mern-freelance-platform"
+      githubUrl: "https://github.com/RISHIKBHIMAVARAPU/Freelancing_website"
     },
     {
       icon: Search,
@@ -23,7 +23,7 @@ export default function ProjectsSection() {
       colors: ["bg-yellow-500/20 text-yellow-400", "bg-blue-500/20 text-blue-400", "bg-purple-500/20 text-purple-400", "bg-green-500/20 text-green-400"],
       gradient: "from-purple-secondary/20 to-blue-primary/20",
       liveUrl: "https://movie-search-engine-demo.herokuapp.com",
-      githubUrl: "https://github.com/rishik-bhimavarapu/movie-search-cosine-similarity"
+      githubUrl: "https://github.com/RISHIKBHIMAVARAPU/Information_Retrieval_project"
     },
     {
       icon: University,
@@ -33,7 +33,7 @@ export default function ProjectsSection() {
       colors: ["bg-orange-500/20 text-orange-400", "bg-blue-500/20 text-blue-400", "bg-yellow-500/20 text-yellow-400"],
       gradient: "from-green-500/20 to-blue-500/20",
       liveUrl: "https://banking-app-demo.netlify.app",
-      githubUrl: "https://github.com/rishik-bhimavarapu/java-banking-system"
+      githubUrl: "https://github.com/RISHIKBHIMAVARAPU/Banking_Application"
     },
   ];
 
@@ -93,7 +93,7 @@ export default function ProjectsSection() {
         </div>
 
         {/* Additional Projects Placeholder */}
-        <div className="text-center mt-12">
+        {/* <div className="text-center mt-12">
           <Button
             variant="outline"
             className="bg-slate-800 hover:bg-slate-700 text-slate-300 px-8 py-3 border-slate-600 hover:border-blue-primary"
@@ -101,7 +101,7 @@ export default function ProjectsSection() {
             View All Projects
             <ArrowRight className="w-4 h-4 ml-2" />
           </Button>
-        </div>
+        </div> */}
       </div>
     </section>
   );

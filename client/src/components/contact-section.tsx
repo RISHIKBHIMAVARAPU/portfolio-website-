@@ -91,13 +91,13 @@ export default function ContactSection() {
                 <CardContent className="p-4">
                   <div className="flex items-center gap-4">
                     <div className="w-12 h-12 bg-blue-primary/20 rounded-lg flex items-center justify-center">
-                      <Mail className="text-blue-primary w-5 h-5" />
+                      <Mail className="text-slate-400 w-5 h-5" />
                     </div>
                     <div>
                       <h4 className="font-medium gradient-text">Email</h4>
                       <a 
                         href="mailto:rishiktarak@gmail.com" 
-                        className="text-slate-400 hover:text-blue-primary transition-colors"
+                        className="text-slate-400 hover:text-slate-400 transition-colors"
                       >
                         rishiktarak@gmail.com
                       </a>
@@ -150,7 +150,7 @@ export default function ContactSection() {
                   className="bg-slate-800 border-slate-700 hover:bg-blue-primary hover:border-blue-primary hover:scale-110 transition-all duration-300"
                   asChild
                 >
-                  <a href="https://linkedin.com/in/rishik-bhimavarapu" target="_blank" rel="noopener noreferrer">
+                  <a href="https://www.linkedin.com/in/rishik123/" target="_blank" rel="noopener noreferrer">
                     <Linkedin className="w-5 h-5" />
                   </a>
                 </Button>
@@ -160,11 +160,11 @@ export default function ContactSection() {
                   className="bg-slate-800 border-slate-700 hover:bg-slate-700 hover:scale-110 transition-all duration-300"
                   asChild
                 >
-                  <a href="https://github.com/rishik-bhimavarapu" target="_blank" rel="noopener noreferrer">
+                  <a href="https://github.com/RISHIKBHIMAVARAPU" target="_blank" rel="noopener noreferrer">
                     <Github className="w-5 h-5" />
                   </a>
                 </Button>
-                <Button
+                {/* <Button
                   size="icon"
                   variant="outline"
                   className="bg-slate-800 border-slate-700 hover:bg-blue-500 hover:border-blue-500 hover:scale-110 transition-all duration-300"
@@ -173,19 +173,19 @@ export default function ContactSection() {
                   <a href="https://twitter.com/rishik_bhimavar" target="_blank" rel="noopener noreferrer">
                     <Twitter className="w-5 h-5" />
                   </a>
-                </Button>
+                </Button> */}
               </div>
             </div>
           </div>
 
           {/* Contact Form */}
-          <Card className="bg-slate-800 border-slate-700">
+          {/* <Card className="bg-slate-800 border-slate-700">
             <CardContent className="p-8">
               <h3 className="text-xl font-semibold mb-6 gradient-text">Send a Message</h3>
               <form onSubmit={handleSubmit} className="space-y-6">
                 <div className="grid md:grid-cols-2 gap-6">
                   <div>
-                    <Label htmlFor="firstName">First Name</Label>
+                    <Label htmlFor="firstName" className="text-slate-400">First Name</Label>
                     <Input
                       id="firstName"
                       name="firstName"
@@ -197,7 +197,7 @@ export default function ContactSection() {
                     />
                   </div>
                   <div>
-                    <Label htmlFor="lastName">Last Name</Label>
+                    <Label htmlFor="lastName" className="text-slate-400">Last Name</Label>
                     <Input
                       id="lastName"
                       name="lastName"
@@ -211,7 +211,7 @@ export default function ContactSection() {
                 </div>
                 
                 <div>
-                  <Label htmlFor="email">Email</Label>
+                  <Label htmlFor="email" className="text-slate-400">Email</Label>
                   <Input
                     id="email"
                     name="email"
@@ -225,7 +225,7 @@ export default function ContactSection() {
                 </div>
                 
                 <div>
-                  <Label htmlFor="subject">Subject</Label>
+                  <Label htmlFor="subject" className="text-slate-400">Subject</Label>
                   <Input
                     id="subject"
                     name="subject"
@@ -238,7 +238,7 @@ export default function ContactSection() {
                 </div>
                 
                 <div>
-                  <Label htmlFor="message">Message</Label>
+                  <Label htmlFor="message" className="text-slate-400">Message</Label>
                   <Textarea
                     id="message"
                     name="message"
@@ -261,7 +261,7 @@ export default function ContactSection() {
                 </Button>
               </form>
             </CardContent>
-          </Card>
+          </Card> */}
         </div>
       </div>
     </section>

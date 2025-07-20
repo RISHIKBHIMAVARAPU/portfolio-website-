@@ -25,15 +25,15 @@ export default function AboutSection() {
             </p>
             <div className="flex flex-wrap gap-4">
               <div className="flex items-center gap-2 text-slate-400">
-                <MapPin className="w-4 h-4 text-blue-primary" />
+                <MapPin className="w-4 h-4 text-slate-400" />
                 <span>Hyderabad, India</span>
               </div>
               <div className="flex items-center gap-2 text-slate-400">
-                <Mail className="w-4 h-4 text-blue-primary" />
+                <Mail className="w-4 h-4 text-slate-400" />
                 <span>rishiktarak@gmail.com</span>
               </div>
               <div className="flex items-center gap-2 text-slate-400">
-                <Phone className="w-4 h-4 text-blue-primary" />
+                <Phone className="w-4 h-4 text-slate-400" />
                 <span>+91 7337237148</span>
               </div>
             </div>
@@ -46,23 +46,23 @@ export default function AboutSection() {
                 <div className="space-y-4">
                   <div className="flex justify-between items-center">
                     <span className="text-slate-400">Experience</span>
-                    <span className="text-blue-primary font-medium">1+ Years</span>
+                    <span className="text-slate-400 font-medium">1+ Years</span>
                   </div>
                   <div className="flex justify-between items-center">
                     <span className="text-slate-400">Education</span>
-                    <span className="text-blue-primary font-medium">B.Tech CSE</span>
+                    <span className="text-slate-400 font-medium">B.Tech CSE</span>
                   </div>
                   <div className="flex justify-between items-center">
                     <span className="text-slate-400">CGPA</span>
-                    <span className="text-blue-primary font-medium">8.0/10</span>
+                    <span className="text-slate-400 font-medium">8.0/10</span>
                   </div>
                   <div className="flex justify-between items-center">
                     <span className="text-slate-400">Certifications</span>
-                    <span className="text-blue-primary font-medium">AWS Certified</span>
+                    <span className="text-slate-400 font-medium">AWS Certified</span>
                   </div>
                   <div className="flex justify-between items-center">
                     <span className="text-slate-400">Coding Challenges</span>
-                    <span className="text-blue-primary font-medium">300+</span>
+                    <span className="text-slate-400 font-medium">300+</span>
                   </div>
                 </div>
               </CardContent>

@@ -21,7 +21,7 @@ export default function HeroSection() {
               <div className="w-full h-full rounded-full overflow-hidden">
                 <img 
                   src="/attached_assets/20250111_101555_1753008202318.jpg" 
-                  alt="Rishik Bhimavarapu - Software Engineer" 
+                  alt="Rishik Bhimavarapu - Software Engineer"
                   className="w-full h-full object-cover"
                 />
               </div>
@@ -50,7 +50,7 @@ export default function HeroSection() {
               variant="outline"
               className="border-slate-600 hover:border-blue-primary text-slate-200 hover:text-blue-primary px-8 py-3 font-medium transition-all duration-300"
             >
-              <a href="#contact">
+              <a href="#contact" style={{ color: "#1D4ED8" }}>
                 Get In Touch
               </a>
             </Button>

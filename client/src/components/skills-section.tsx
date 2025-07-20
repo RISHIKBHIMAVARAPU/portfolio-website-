@@ -9,9 +9,9 @@ export default function SkillsSection() {
       title: "Languages",
       color: "text-blue-primary",
       skills: [
-        { name: "TypeScript", level: 85 },
-        { name: "JavaScript", level: 85 },
-        { name: "Java", level: 70 },
+        { name: "TypeScript", level: 100 },
+        { name: "JavaScript", level: 100 },
+        { name: "Java", level: 100 },
         { name: "Python", level: 70 },
       ],
     },
@@ -30,10 +30,10 @@ export default function SkillsSection() {
       title: "Backend",
       color: "text-green-400",
       skills: [
-        { name: "Node.js", level: 85 },
-        { name: "REST API", level: 85 },
-        { name: "Microservices", level: 70 },
-        { name: "gRPC", level: 50 },
+        { name: "Node.js", level: 100 },
+        { name: "REST API", level: 100 },
+        { name: "Microservices", level: 100 },
+        { name: "gRPC", level: 100 },
       ],
     },
     {
@@ -41,10 +41,10 @@ export default function SkillsSection() {
       title: "Database & Tools",
       color: "text-orange-400",
       skills: [
-        { name: "MongoDB", level: 85 },
-        { name: "Redis", level: 70 },
-        { name: "MySQL", level: 70 },
-        { name: "AWS", level: 50 },
+        { name: "MongoDB", level: 100 },
+        { name: "Redis", level: 100 },
+        { name: "MySQL", level: 100 },
+        { name: "AWS", level: 70 },
       ],
     },
   ];
